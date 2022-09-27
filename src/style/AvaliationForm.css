@@ -1,0 +1,84 @@
+.product-avaliations {
+  background-color: rgb(225, 229, 235);
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.form-avaliaton-container {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-avaliaton-container h2 {
+  margin-top: 20px;
+}
+
+.form-avaliaton {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 800px;
+}
+
+.form-avaliaton div {
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.form-avaliaton div input {
+  margin-right: 5px;
+}
+
+.input-email {
+  flex-grow: 1;
+  padding: 10px 5px;
+  width: 80%;
+}
+
+textarea {
+  padding: 10px 5px;
+  resize: none;
+  width: 97%;
+}
+
+.btn-set-avaliation {
+  background-color: rgb(49 194 141);
+  border: none;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding: 10px 50px;
+  width: 35%;
+}
+
+.btn-set-avaliation:hover {
+  background-color: rgb(49, 194, 180);
+  cursor: pointer;
+}
+
+.avaliations {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 20px 30px;
+}
+
+.avaliation-email-rating {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.avaliation-email-rating h3 {
+  width: 450px;
+}
+
+.avaliations span {
+  background-color: rgb(186, 190, 195);
+  color: white;
+  font-weight: 700;
+  padding: 5px;
+}

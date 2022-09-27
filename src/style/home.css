@@ -1,0 +1,80 @@
+.categorys {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-evenly;
+  order: 1;
+  padding: 2%;
+  width: 310px;
+}
+
+.categorys h2 {
+  font-weight: 700;
+}
+
+.categorys hr {
+  background-color: #b0b3bb;
+  border: 1px solid #b0b3bb;
+  margin: 4% 0;
+  width: 238px;
+}
+
+.input-de-busca-div {
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  height: 28px;
+  justify-content: space-around;
+  left: 3%;
+  outline: none;
+  position: absolute;
+  top: 7%;
+  width: 200px;
+}
+
+.input-de-busca {
+  border: none;
+  height: 28px;
+}
+
+.search-btn {
+  background-color: white;
+  border: none;
+}
+
+.card-item {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-around;
+}
+
+.initial-message {
+  align-self: baseline;
+  color: #31c28d;
+  font-size: 2em;
+  margin: 50px;
+  text-align: center;
+  width: 550px;
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.btn-category {
+  background: none;
+  border: none;
+  text-align: start;
+}
+
+.btn-category:hover {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}

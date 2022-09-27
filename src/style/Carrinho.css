@@ -1,0 +1,69 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap') ; */
+.cart-details-container {
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.div-father-shopping {
+  padding: 0 40px;
+}
+
+.shopping-cart-card {
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px  #00000085;
+}
+
+.shopping-cart-card h2 {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.cart-product-container {
+  color: #444955;
+  display: flex;
+  padding: 10px 20px;
+}
+
+.checkout-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.checkout-card h2 {
+  margin-top: 30px;
+}
+
+.checkout-card h3 {
+  margin: 20px 0;
+}
+
+.checkout-link {
+  background-color: rgb(49 194 141);
+  border: none;
+  color: white;
+  font-weight: 700;
+  padding: 10px 50px;
+  text-decoration: none;
+}
+
+.checkout-link:hover {
+  background-color: rgb(49, 194, 180);
+  cursor: pointer;
+}
+
+.empity-card {
+  align-items: flex-start;
+  background: white;
+  color: #31c28d;
+  display: flex;
+  font-size: 32px;
+  height: 100vh;
+  justify-content: center;
+  position: fixed;
+  width: 80%;
+  z-index: 1;
+}
