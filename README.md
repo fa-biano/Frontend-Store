@@ -2,11 +2,11 @@
 Projeto realizado durante o curso de desenvolvimento web da Trybe no módulo Frontend
 
 ## :dizzy: Objetivo: 
-Criar um site de e-commerce simulado (com funções reduzidas), utilizando React.js.
+Criar um site de e-commerce simulado (com funções reduzidas), utilizando React.js.<br>
 A aplicação acessa a API do Mercado Livre para realizar as buscas de produtos ou categorias, exibindo os produtos e suas principais informações na página.
 
 ### É possível:
-* Clicar no produto para verificar um página detalhada com todas as especificações e avaliações dos clientes
+* Clicar no produto para verificar um página detalhada com todas as especificações e adicionar uma avaliação/opinião de cliente
 * Adicionar os produtos no Carrinho, aumentar as qtds desejas e visualizar o valor total da compra
 * Simular a finalização da compra com a revisão do pedido, preenchimento de dados do cliente e escolha do método de pagameto
 
